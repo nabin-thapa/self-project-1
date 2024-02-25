@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: bisque;
+
+}
+#nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aqua;
+    padding: 0px 40px;
+}
+#navpart1{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+#nav h3{
+    font-size: 16px;
+    border: solid 1.5px black;
+    padding: 5px 10px;
+    font-weight: 500;
+    border-radius: 50px;
+} 
+#nav i{
+    font-size: 16px;
+    border: solid 1.5px black;
+    padding: 5px 10px;
+    font-weight: 500;
+    border-radius: 50px;
+}
+
+button{
+    padding: 7px 12px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+#btn{
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+#main>h1{
+    font-size: 70px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 325px;
+    width: 250px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 20px;
+}
+#img1{
+    transform: translate(-50%,-50%) rotate(-30deg) ;
+
+}
+
+#img2{
+    transform: translate(-50%,-50%) rotate(-20deg) ;
+
+}
+
+#img3{
+    transform: translate(-50%,-50%) rotate(-10deg) ;
+
+}
+#nabin{
+position: absolute;
+    bottom:5%;
+    left: 3%;
+    font-size: 17px;
+    color: black;
+}
+#left{
+    position: absolute;
+    bottom: 27px;
+    right: 19px;
+    font-size:20px;
+}
+#icon{
+    position: absolute;
+    right: 40px;
+    bottom:53px ;
+    align-items: center;
+    padding: 0px 40px;
+    gap: 3px;
+}
+.ri-instagram-line{
+    gap: 5px;
+
+}
+n
+
+
+#navpart2{
+    display: flex;
+    gap: 7px;
+    color: white;
+
+}
+#vak{
+    background-color: bisque;
+}
+#image-vangogh{
+    height: 20px;
+    width: 18px;
+}
+#pic{
+    height: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+#last{
+    top:20px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-left: 660px;
+    margin-top: 7px;
+}
+
+
+
